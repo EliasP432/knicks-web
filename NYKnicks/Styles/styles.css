@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f1f1f1;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1D428A;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    color: #FF671F;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+main ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #004080;  /* Knicks blue */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+/* REMOVED bad global img rule */
+
+.player {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.player-name {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.3rem;
+    margin-top: 40px;
+}
+
+.player-name p {
+    margin: 10px 0 30px;
+    line-height: 1.6;
+}
+
+.back-to-top {
+    display: block;
+    text-align: center;
+    margin: 40px auto;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    width: fit-content;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #3366cc;
+}
+
+.knicks-logo {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
